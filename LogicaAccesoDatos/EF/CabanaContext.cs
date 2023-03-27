@@ -14,7 +14,7 @@ namespace LogicaAccesoDatos.EF
         {
             base.OnConfiguring(optionsBuilder);
             optionsBuilder.UseSqlServer(
-                
+                // aca se pone la dreccion de la BD
                 );
         }
 
